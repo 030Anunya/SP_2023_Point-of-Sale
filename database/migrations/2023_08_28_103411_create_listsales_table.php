@@ -23,6 +23,7 @@ return new class extends Migration
             $table->decimal('vat',13,2);
             $table->decimal('price_sum_vat',13,2);
             $table->timestamps();
+            
         });
     }
 
